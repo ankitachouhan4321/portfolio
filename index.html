@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="left">
+            <div class="logo">Ankita</div>
+
+        </div>
+
+
+        <div class="mood" onclick="dark()">
+            <i class=" i-change ri-moon-line"></i>
+        </div>
+
+
+        <div class="nav">
+            <li><a href="#home" id="home-menu" class="active">Home</a></li>
+            <li><a href="#about" id="about-menu">About</a></li>
+            <li><a href="#experience" id="experience-menu">Experience</a></li>
+            <li><a href="#project" id="project-menu">Project</a></li>
+            <li><a href="#contact" id="contact-menu">Contact</a></li>
+
+        </div>
+
+        <div class="right">
+            <a href="#contact"><button class="btn"> Contact </button></a>
+
+        </div>
+        <div class="menu" onclick="changemenu()">
+            <i class=" bar ri-menu-line "></i>
+        </div>
+
+
+    </header>
+
+
+    <div class="res-nav ">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact"><button class="btn"> Contact </button></a>
+        </li>
+
+
+    </div>
+
+
+
+    <section id="home">
+        <div class="home">
+            <div id="blur-1" class="blur"></div>
+            <div id="blur-2" class="blur"></div>
+
+            <div class="main">
+
+                <div class="left">
+                    <div class="content">
+
+                        <span>Hi I Am <br> <span>Ankita Chouhan</span> <br> Front-End Developer</span>
+
+                        <span class="four">With knowledge in Web design, I offer the best projects resulting in
+                            quality work</span>
+
+                    </div>
+                    <button class="btn"> <a href="Images/Ankita Resume.pdf" download>Download Cv </a></button>
+
+                    <div class="iocn">
+
+                        <a href="https://github.com/ankitachouhan4321/portfolio"> <i class="fa-brands fa-github"></i></a>
+
+                        <a href="https://www.linkedin.com/in/ankita1234/"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+
+
+                </div>
+
+                <div class="right">
+                    <div class="img">
+
+                        <img src="Images/home-bg.png">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section id="about">
+        <div class="about">
+            <div class="left">
+                <div class="img">
+                    <img src="Images/about-img.png">
+                </div>
+            </div>
+
+            <div class="right">
+                <h1>About Me</h1>
+
+                <p>
+                    Hello, My Name is Ankita. I am an intern in <span class="green-c">Frontend Web-Developement</span>
+                    currently living in new delhi. I have completed my graduation in B.A. programme from Delhi
+                    University. After my school life, I joined a call center there i worked as a <span
+                        class="green-c">Telecaller</span>. After that, I learned Basics of Computer and worked as an
+                    <span class="green-c">Office Assistant</span>and <span>Back Office.</span> <span
+                        class="more-text show">There I learned and enjoyed a lot but i wanted to set my career in coding
+                        line because i am very intereseted in designing and building websites. So, first I joined an
+                        institute. There i learned HTML, Css, Javascript and angular, reactsJs, boostrape as a framework
+                        i also learned wordpress. By using these skills i have made some projects which are mentioned in
+                        projects sections.Now i am searching a organization where i can use my skills to enhance my
+                        knowledge in this field.</span>
+                    <span class="about-btn" onclick="abc()">Read More....</span>
+
+                </p>
+                <div class="skills"></div>
+
+                <h2>Skills</h2>
+
+
+                <div class="container">
+
+                    <div class="box">
+                        <span>HTML</span>
+                        <div class="progress">
+                            <div class=" html prog">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <span>Css</span>
+                        <div class="progress">
+                            <div class=" css prog">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <span>Javascript</span>
+                        <div class="progress">
+                            <div class=" javascript prog">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="box">
+                        <span>jQuery UI</span>
+                        <div class="progress">
+                            <div class=" jquiry prog">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="box">
+                        <span>Angular</span>
+                        <div class="progress">
+                            <div class="prog angular">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <span>React</span>
+                        <div class="progress">
+                            <div class="prog react">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <span>Wordpress</span>
+                        <div class="progress">
+                            <div class="prog wordpress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <span>Boostrape</span>
+                        <div class="progress">
+                            <div class="prog boostrape">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <span>Photoshop</span>
+                        <div class="progress">
+                            <div class="prog photoshop">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="experience">
+            <div id="blur-3" class="blur"></div>
+            <div id="blur-4" class="blur"></div>
+
+            <div class="left">
+                <div class="content">
+                    <span>My Experience</span>
+                    <span>What I do</span>
+                </div>
+                <button class="btn">See More</button>
+
+            </div>
+            <div class="right">
+
+
+
+                <div class="exp-box exp-box-1">
+                    <img src="Images/call.jpg">
+                    <h3>Tele Caller <br><span>(2019 - 2019)</span>
+                    </h3>
+                    <p>I worked there as a Telecaller to sale medicine in Janak Ayurveda.</p>
+                </div>
+                <div class="exp-box exp-box-2">
+                    <img src="Images/assistnce.png">
+                    <h3>Office Assistant <br><span>(2020 - 2021)</span></h3>
+                    <p>I worked as a office Assistant in Satyakiran Engineers Pvt. Ltd.</p>
+                </div>
+                <div class="exp-box exp-box-3">
+                    <img src="Images/back.jpg">
+                    <h3>Back Office <br><span>(2021 - 2023)</span></h3>
+                    <p>I worked as a back office in Ideal Lingua Translations.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="project">
+
+        <div class="projects">
+            <h3>My Recent</h3>
+            <h2>Projects</h2>
+
+            <div class="container">
+                <div class="box">
+
+                    <div class="one">
+                        <span>Modern Gym</span>
+                        <span> Website</span>
+                        <a href="http://bestrong.wuaze.com/#home">View demo <i class="ri-arrow-right-up-line"></i></a>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact">
+            <div id="blur-5" class="blur"></div>
+            <div id="blur-6" class="blur"></div>
+
+            <div class="left">
+                <span>Get in Touch</span>
+                <span>Contact Me</span>
+            </div>
+            <div class="right">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="f64231f6-afe1-41dc-a20d-44108ee76de7">
+
+                    <input type="name" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="Message" rows="4" placeholder="Message"></textarea>
+                    <button class="btn">Send</button>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer">
+            <div class="bg-yellow">
+                <div class="content">
+                    <a href="mailto:ankitachoihan4585@gmail.com">ankitachouhan4585@gmail.com</a><br>
+                    <div class="icon">
+
+                        <a href="https://github.com/ankitachouhan4321/portfolio"> <i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ankita1234/"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+<script src="logic.js"></script>
+<script src="script.js"></script>
+
+</html>
